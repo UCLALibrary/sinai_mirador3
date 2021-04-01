@@ -20,12 +20,15 @@ Known parameters are:
 
 - `manifest`
 
-## Serve demo
+## Build the project
 
-Serve static files in `demo/portal` on localhost:5555
 
 ```
-npm run serve
+npm run build
 ```
 
-Directory root: http://localhost:5555/demo/portal
+## Copy the minified js mirador3.min.js to sinaimanuscripts/public/
+
+The minified js is used by mirador3.html in the sinaimanuscripts repo
+
+
