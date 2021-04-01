@@ -27,7 +27,7 @@ Known parameters are:
 npm run build
 ```
 
-## Copy the minified js mirador3.min.js to sinaimanuscripts/public/
+## Copy the minified js dist/mirador3.min.js to sinaimanuscripts/public/
 
 The minified js is used by mirador3.html in the sinaimanuscripts repo
 
