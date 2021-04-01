@@ -1,0 +1,36 @@
+{
+  "name": "sinai_mirador3",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "server": "node_modules/.bin/http-server --cors -o /demo/portal -c-1",
+    "serve": "npm run server -- -p 5555",
+    "webpack": "webpack --config webpack.config.js",
+    "build": "NODE_ENV=production webpack --mode=production",
+    "start": "NODE_ENV=development webpack-dev-server --open"
+  },
+  "dependencies": {
+    "mirador": "file:../mirador",
+    "mirador-image-tools": "^0.10.0",
+    "mirador-annotations": "^0.3.2"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.3.3",
+    "css-loader": "^3.6.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "http-server": "^0.12.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-refresh": "^0.8.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "keywords": []
+}
